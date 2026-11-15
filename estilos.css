@@ -1,0 +1,79 @@
+/* Estilos generales de la página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333333;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo del título principal */
+h1 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Estilo del párrafo de descripción */
+p {
+  color: #555555;
+  font-size: 1.1rem;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Estilos de la tabla */
+table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabecera de la tabla */
+thead {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+th, td {
+  padding: 14px 20px;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+
+/* Filas del cuerpo de la tabla */
+tbody tr {
+  border-bottom: 1px solid #eeeeee;
+  transition: background-color 0.2s ease;
+}
+
+/* Color alterno para las filas (efecto cebra) */
+tbody tr:nth-child(even) {
+  background-color: #f9fbfb;
+}
+
+/* Efecto al pasar el mouse por encima de una fila */
+tbody tr:hover {
+  background-color: #eaf4fc;
+}
+
+/* Eliminar el borde de la última fila */
+tbody tr:last-child {
+  border-bottom: none;
+}
